@@ -38,7 +38,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: var(--font-main), serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 *::after,
@@ -110,9 +110,10 @@ main {
 
 .social-links li:hover {
     background-color: var(--green);
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .social-links li:hover a {
     color: var(--grey-700);
+    transition: color 0.3s ease-in-out;
 }
